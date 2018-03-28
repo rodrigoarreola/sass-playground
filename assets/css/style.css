@@ -40,6 +40,9 @@ section h1 {
       width: 16.6666666667%; }
       #main-nav ul li:hover {
         background: #52818e; }
+      @media screen and (max-width: 600px) {
+        #main-nav ul li {
+          width: 100%; } }
       #main-nav ul li a {
         color: #f8f9fb;
         text-decoration: none;

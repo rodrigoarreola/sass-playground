@@ -20,6 +20,9 @@ section{
             &:hover{
                 background: lighten($blue-grey, 6);
             }
+            @include mQ(600px){
+                width: 100%;
+            }
             a{
                 color: $light-grey;
                 text-decoration: none;
