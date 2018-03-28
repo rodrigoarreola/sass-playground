@@ -10,7 +10,26 @@ section{
 
 #main-nav{
     background: $blue-grey;
-}
+    ul{
+        width: 100%;
+        li{
+            float: left;
+            width: 14%;
+            a{
+                color: $light-grey;
+                text-decoration: none;
+                padding: 16px;
+                display: block;
+                text-align: center;
+            }
+        }
+        &:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+    }
+} //end of #main-nav
 
 .img{
     width: 100%;

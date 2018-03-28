@@ -28,6 +28,21 @@ section h1 {
 
 #main-nav {
   background: #476f7b; }
+  #main-nav ul {
+    width: 100%; }
+    #main-nav ul li {
+      float: left;
+      width: 14%; }
+      #main-nav ul li a {
+        color: #f8f9fb;
+        text-decoration: none;
+        padding: 16px;
+        display: block;
+        text-align: center; }
+    #main-nav ul:after {
+      content: "";
+      display: block;
+      clear: both; }
 
 .img {
   width: 100%;
