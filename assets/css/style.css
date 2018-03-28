@@ -39,7 +39,7 @@ section h1 {
       float: left;
       width: 16.6666666667%; }
       #main-nav ul li:hover {
-        background: #043565; }
+        background: #52818e; }
       #main-nav ul li a {
         color: #f8f9fb;
         text-decoration: none;
@@ -107,10 +107,18 @@ section h1 {
       color: #043565;
       font-weight: bold; }
       #services li a:hover {
-        color: #eb4b98; }
+        color: #653404; }
     #services li ul:after {
       content: "";
       display: block;
       clear: both; }
+
+#projects li {
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  width: 20%; }
+  #projects li:nth-child(5n) {
+    margin-right: 0; }
 
 /*# sourceMappingURL=style.css.map */
