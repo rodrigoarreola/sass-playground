@@ -1,0 +1,22 @@
+@mixin banner{
+    width: 100%;
+    position: relative;
+    color: $light-grey;
+    .banner-content{
+        position: absolute;
+        top: 50px;
+        width: 100%;
+    }
+    img{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+
+    }
+    span{
+        font-size: $big-size;
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
