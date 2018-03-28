@@ -13,14 +13,10 @@ section{
     background: $blue-grey;
     ul{
         width: 100%;
-        &:after{
-            content: "";
-            display: block;
-            clear: both;
-        }
+        @include clearFix;
         li{
             float: left;
-            width: 14%;
+            width: (100% / 6);
             &:hover{
                 background: $midnight-blue;
             }
@@ -55,11 +51,26 @@ section{
     }
 }
 
-
-/*
-.img{
-    width: 100%;
-    height: 200px;
-    object-fit: cover; 
+#services{
+    margin-bottom: 280px;
+    li{
+        float: left;
+        text-align: center;
+        width: (100% / 3);
+        img{
+            width: 64px;
+            margin: 20px 20%;
+        }
+        a{
+            text-decoration: none;
+            color: $midnight-blue;
+            font-weight: bold;
+            &:hover{
+                color: $pigglet-pink;
+            }
+        }
+        ul{
+            @include clearFix;
+        }
+    }
 }
-*/

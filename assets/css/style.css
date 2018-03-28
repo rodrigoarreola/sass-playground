@@ -37,7 +37,7 @@ section h1 {
       clear: both; }
     #main-nav ul li {
       float: left;
-      width: 14%; }
+      width: 16.6666666667%; }
       #main-nav ul li:hover {
         background: #043565; }
       #main-nav ul li a {
@@ -93,12 +93,24 @@ section h1 {
     max-width: 500px;
     margin: 60px 0; }
 
-/*
-.img{
-    width: 100%;
-    height: 200px;
-    object-fit: cover; 
-}
-*/
+#services {
+  margin-bottom: 280px; }
+  #services li {
+    float: left;
+    text-align: center;
+    width: 33.3333333333%; }
+    #services li img {
+      width: 64px;
+      margin: 20px 20%; }
+    #services li a {
+      text-decoration: none;
+      color: #043565;
+      font-weight: bold; }
+      #services li a:hover {
+        color: #eb4b98; }
+    #services li ul:after {
+      content: "";
+      display: block;
+      clear: both; }
 
 /*# sourceMappingURL=style.css.map */
