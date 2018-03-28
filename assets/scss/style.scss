@@ -13,9 +13,17 @@ section{
     background: $blue-grey;
     ul{
         width: 100%;
+        &:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
         li{
             float: left;
             width: 14%;
+            &:hover{
+                background: $midnight-blue;
+            }
             a{
                 color: $light-grey;
                 text-decoration: none;
@@ -24,16 +32,11 @@ section{
                 text-align: center;
             }
         }
-        &:after{
-            content: "";
-            display: block;
-            clear: both;
-        }
     }
 } //end of #main-nav
 
 .title{
-    font-weight: normal;
+    font-weight: 200 !important;
     margin-bottom: 30px;
 }
 
